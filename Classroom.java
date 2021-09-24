@@ -9,6 +9,5 @@ public class Classroom {
         System.out.println(classMate.whoAmI());
         System.out.println(classMate2.whoAmI());
         System.out.println(classmate3.whoAmI());
-
     }
 }

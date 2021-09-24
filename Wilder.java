@@ -1,9 +1,7 @@
 public class Wilder {
-
     // attributes
     private String firstName;
     private boolean present;
-
 
     // constructors
     public Wilder(String firstName, boolean present) {
@@ -17,7 +15,6 @@ public class Wilder {
     public boolean isPresent() {
         return this.present;
     }
-
     // setters
     public void setFirstName(String name) {
         this.firstName = name;
@@ -25,7 +22,6 @@ public class Wilder {
     public void setPresent(boolean present) {
         this.isPresent();
     }
-
     // instance method
     public String whoAmI() {
         if (present == true) {
@@ -34,6 +30,4 @@ public class Wilder {
             return "My name is " + this.firstName + " and I'm not present";
         }
     }
-
-
 }
